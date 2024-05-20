@@ -1,13 +1,18 @@
-# Getting Started with Keycloak
+# Keycloack
 
-This project is used for demo  [Keycloak SSO Demo](https://www.youtube.com/watch?v=pOLlwUxiKAw).
+Es un compomente simple que se loguea contra Keycloak. La configuracion esta hardcodeada en el arhcivo /components/keycloak.jsx El flow de autenticacion es CODE + PCKE
 
-## Available Scripts
+## Configuracion 
 
-In the project directory, you can run:
+```
+const keycloakConfig = {
+  url: 'http://localhost:8080/',
+  realm: 'unahur',
+  clientId: 'front'
+};
+```
 
 ### `npm start`
 
 
-Also update keycloak config in your keycloak.jsx file
 
