@@ -46,3 +46,50 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+.bg-curso {
+  background-color: #8540f5; 
+ }
+ 
+ .bg-curso {
+  background-color: #8540f5; 
+ }
+ 
+ .container-table{
+   display:block;
+   justify-content: center; /* Centra horizontalmente */  
+   height: 80vh; /* Opcional, ajusta la altura al 100% de la pantalla */
+ }
+
+ /* components/Navigation.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.2em;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 10px;
+}
+
+.logout-btn {
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
